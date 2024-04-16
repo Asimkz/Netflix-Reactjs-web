@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.download-section{
+   
+        background-color: black;
+        padding: 4.5rem 0 4.5rem;
+    }
+    .download-section-heading-rapo {
+        display: grid;
+        justify-content: end;
+    }
+.download-section-heading-rapo h3{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+.download-section-heading-rapo p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+.img-fluidy{
+    max-width: 18%;
+    height: auto;
+}
+.head-txt{
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+.main-rapo{
+    background-color: black;
+    border: groove;
+   
+}
+.parent-rapo{
+    position: relative;
+}
+.main-rapo{
+    position: absolute;
+    bottom: 40px;
+    left: 59px;
+    display: block;
+}
+.bottom-line-2{
+
+    width: 100%;
+    height: 0.5rem;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+
+}
+
+@media (max-width: 991.98px) {
+   .main-rapo{
+    display: none;
+   }
+
+}

@@ -1,0 +1,140 @@
+.HomePagebanner {
+    position: relative;
+    background-image: url(../../Images/MainMoviePoster.png);
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+    max-width: 100%;
+
+}
+
+.homepagebanner-heading {
+    margin-top: 10%;
+
+}
+
+.homepagebanner-heading h3 {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.homepagebanner-txt-img {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.homepagebanner-txt-img p {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+
+
+}
+
+.homepagebanner-txt p {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.btn-vector1 {
+    padding: 16px 30px 15px 30px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: rgb(255, 255, 255);
+    padding: 16px 35px 15px 30px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 4px;
+    gap: 20px;
+    width: 300px;
+    background-color: red;
+    border-radius: 43px;
+}
+
+.btn-vector1:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-color:  #ff0000;
+}
+
+
+.btn-vector2 {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 15px 30px 15px 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 919.98px) {
+    .btn-vector2 {
+        font-family: sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+        background-color: #ff0000;
+        padding: 15px 30px 15px 30px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.MovieSlider-heading h3 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+
+
+}
+
+.MovieSlider-heading h2 {
+    color: #E5E5E5;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    margin-left: 7%;
+
+}
+
+.trending-section {
+    background-color: rgb(25, 24, 24);
+    padding: 20px;
+}
+
+/* .v-1{
+    filter: invert(1);
+ } */

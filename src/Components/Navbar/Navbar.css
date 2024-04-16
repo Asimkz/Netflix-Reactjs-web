@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.app-1{
+    position: relative;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/1ff59121-777a-410e-afeb-6da82228426f/PK-en-20240205-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.app-2 {
+    position: relative;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/1ff59121-777a-410e-afeb-6da82228426f/PK-en-20240205-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+}
+.app-3 {
+    position: relative;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/1ff59121-777a-410e-afeb-6da82228426f/PK-en-20240205-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 1199.98px) {
+    .app {
+       
+        height: 100%;
+        width: 100%;
+    }
+}
+.app-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    opacity: 0.5; /* Adjust this value to change the brightness. Lower values make the image darker, higher values make it lighter. */
+
+}
+.main-nav{
+   display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+    position: relative;
+
+}
+.main-nav::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 175px 191px rgba(0,0,0,.8);
+    width: 100%;}
+    .navbar-brand{
+        z-index: 1;
+    }
+    .btn1{
+        z-index: 1;
+    }
+    @media (max-width: 767.571px) { 
+        .logo{
+            width: 70%;
+        }
+    }
+    @media (max-width: 576.98px) { 
+        .logo{
+            width: 50%;
+        }
+    }
+  .signin-btn{
+    z-index: 1;
+  }

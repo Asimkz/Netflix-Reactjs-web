@@ -1,0 +1,59 @@
+.crausal-images {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Crausal.css */
+.slider-container {
+    width: 100%;
+    /* max-width: 600px; */
+    margin: 0 auto;
+  }
+ 
+  .crausal-img{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    filter: brightness(0.5);
+  }
+
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    color: white;
+}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.crausal-txt-row{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.calenders-icon{
+  color: red;
+  margin-right: 20px;
+
+}
+.fav-btn{
+  border-radius: 100%;
+  width: 80px;
+  height: auto;
+}
+.fav-btn:hover{
+ background-color: black;
+ color: rgb(255, 0, 0);
+ border-color: 1px solid red;
+}

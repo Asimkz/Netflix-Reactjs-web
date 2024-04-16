@@ -1,0 +1,61 @@
+/* MoviesSlider.css */
+
+.slider-container {
+  margin: 50px auto;
+}
+
+.slider-container .slick-slide {
+  padding: 0 10px;
+}
+
+.slider-container .slick-slide img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider-container .slick-slide img:hover {
+  transform: scale(1.05);
+}
+
+/* Optionally add hover effect to the text */
+.slider-container .slick-slide h6 {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.slider-container .slick-slide:hover h6 {
+  opacity: 1;
+}
+
+.slider-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.play-button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.slider-image-container:hover .play-button-container {
+  opacity: 1;
+}
+
+.play-button {
+  font-size: 100%;
+  color: #ff0000;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 10px;
+  font-weight: 700;
+}

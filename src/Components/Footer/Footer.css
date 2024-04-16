@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.footercss1{
+    background-color: black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+.footercss2{
+background-color: rgba(0, 0, 0, 0.445);
+padding-left: 3rem;
+padding-right: 3rem;
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+.footer-heading a{
+color: white;
+}
+.footer-link{
+    color: white;
+}
+.btn-2{
+    background-color: black;
+    color: white;
+    border: groove;
+}
+.dropup .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 1.255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0;
+    border-right: .3em solid transparent;
+    /* border-top: .3em solid; */
+    border-left: .3em solid transparent;
+}
+.btn-2:hover {
+    color: #fff;
+}
+.btn-2-check:focus+.btn, .btn:focus {
+    outline: 0;
+    /* box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25); */
+}
+.last-txt-footer p{
+    color: white;
+    font-size: 0.875rem;
+    margin-top: 1.5rem;
+
+}

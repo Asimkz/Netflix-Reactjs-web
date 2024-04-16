@@ -1,0 +1,48 @@
+.movie-heading h3 {
+  color: white;
+  font-size: 56px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+.movie-watch {
+  background-color: #000000bd;
+  padding: 74px 0px;
+}
+.movie-data-quality-info p {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: small;
+}
+
+.share-icon{
+    color: rgb(245, 0, 0);
+     width: 60px;
+     height: 60px;
+     cursor: pointer;
+}
+.share-icon:hover{
+
+   color: rgb(255, 255, 255);
+}
+.movie-para h4{
+color: white;
+display: flex;
+align-items: center;
+}
+.movie-para{
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(34, 33, 33);
+}
+@media (max-width: 575.98px) { 
+  .movie-para{
+    display: grid !important;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(34, 33, 33);
+}
+}
