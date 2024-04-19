@@ -79,25 +79,10 @@ function SighnUp(props) {
                 Sign In
               </button>
 
-              <a className="forget-pass mb-3" href="/">
+              <Link className="forget-pass mb-3" to="#">
                 <p>Forget Password?</p>
-              </a>
+              </Link>
             </form>
-            <div class="form-check mt-5 d-flex align-items-center">
-              <input
-                class="form-check-input me-2"
-                type="checkbox"
-                value=""
-                id="flexCheckChecked"
-                checked
-              />
-              <label
-                class="form-check-label form-check-txt"
-                for="flexCheckChecked"
-              >
-                Remember me
-              </label>
-            </div>
 
             <div className="last-txt-sihgnup-form mb-5">
               <p>
